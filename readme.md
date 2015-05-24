@@ -1,6 +1,6 @@
 # Getting and Cleaning Data
 
-## Course project description
+## Course Project
 
 You should create one R script called run_analysis.R that does the following.
 
@@ -10,13 +10,14 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Steps to conduct analysis
+## Steps to conduct the analysis
+
 
 1. Put ```run_analysis.R``` in your R working directory.
-2. When you run the script it will crete a folder named "GetCleanCourseProject"
-3. It will download the source data file and uzip it automatically.
-4. Run ```source("run_analysis.R")```, then it will generate a new file ```tidy_data.txt``` in folder GetCleanCourseProject.
+2. Run ```source("run_analysis.R")```, it will create a folder in your R working directory named GetCleanCourseProject.
+3. The script will then download and unzip the dataset. 
+4. Then it will generate a new file ```tidy_data.txt``` in GetCleanCourseProject directory.
 
-## Required libraries
+## Libraries
 
 ```run_analysis.R``` file will help you to install the dependencies automatically. It depends on ```reshape2``` and ```data.table```. 
